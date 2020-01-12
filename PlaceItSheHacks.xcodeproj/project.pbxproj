@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		749FA6C123CADBE9002FBB4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749FA6C023CADBE9002FBB4E /* AppDelegate.swift */; };
 		749FA6C323CADBE9002FBB4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749FA6C223CADBE9002FBB4E /* SceneDelegate.swift */; };
-		749FA6C523CADBE9002FBB4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749FA6C423CADBE9002FBB4E /* ViewController.swift */; };
 		749FA6C823CADBE9002FBB4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749FA6C623CADBE9002FBB4E /* Main.storyboard */; };
 		749FA6CA23CADBEA002FBB4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749FA6C923CADBEA002FBB4E /* Assets.xcassets */; };
 		749FA6CD23CADBEA002FBB4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749FA6CB23CADBEA002FBB4E /* LaunchScreen.storyboard */; };
+		749FA6D723CADCFE002FBB4E /* TakePictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749FA6D623CADCFE002FBB4E /* TakePictureViewController.swift */; };
+		749FA6D923CAE171002FBB4E /* PlaceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749FA6D823CAE171002FBB4E /* PlaceDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		749FA6BD23CADBE9002FBB4E /* PlaceItSheHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaceItSheHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		749FA6C023CADBE9002FBB4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		749FA6C223CADBE9002FBB4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		749FA6C423CADBE9002FBB4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		749FA6C723CADBE9002FBB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		749FA6C923CADBEA002FBB4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		749FA6CC23CADBEA002FBB4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		749FA6CE23CADBEA002FBB4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749FA6D623CADCFE002FBB4E /* TakePictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePictureViewController.swift; sourceTree = "<group>"; };
+		749FA6D823CAE171002FBB4E /* PlaceDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				749FA6C023CADBE9002FBB4E /* AppDelegate.swift */,
 				749FA6C223CADBE9002FBB4E /* SceneDelegate.swift */,
-				749FA6C423CADBE9002FBB4E /* ViewController.swift */,
 				749FA6C623CADBE9002FBB4E /* Main.storyboard */,
 				749FA6C923CADBEA002FBB4E /* Assets.xcassets */,
 				749FA6CB23CADBEA002FBB4E /* LaunchScreen.storyboard */,
 				749FA6CE23CADBEA002FBB4E /* Info.plist */,
+				749FA6D623CADCFE002FBB4E /* TakePictureViewController.swift */,
+				749FA6D823CAE171002FBB4E /* PlaceDetailsViewController.swift */,
 			);
 			path = PlaceItSheHacks;
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				749FA6C523CADBE9002FBB4E /* ViewController.swift in Sources */,
+				749FA6D923CAE171002FBB4E /* PlaceDetailsViewController.swift in Sources */,
+				749FA6D723CADCFE002FBB4E /* TakePictureViewController.swift in Sources */,
 				749FA6C123CADBE9002FBB4E /* AppDelegate.swift in Sources */,
 				749FA6C323CADBE9002FBB4E /* SceneDelegate.swift in Sources */,
 			);
